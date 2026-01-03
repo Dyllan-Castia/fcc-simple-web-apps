@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theme Switcher</title>
+  <link rel="stylesheet" href="./themeSwitcher.css">
+</head>
+<body>
+<button id="theme-switcher-button" aria-haspopup="true" aria-expanded="false" aria-controls="theme-dropdown">Switch Theme</button>
+<ul hidden id="theme-dropdown" role="menu" aria-labelledby="theme-switcher-button">
+  <li class="menuitem" role ="menuitem" id="theme-moogie">moogie</li>
+  <li class="menuitem" role="menuitem" id="theme-boogie">boogie</li>
+  <li class="menuitem" role="menuitem" id="theme-floogie">floogie</li>
+  </ul>
+  <p id="update-message" aria-live="polite" hidden>Theme updated</p>
+  <script src="./themeSwitcher.js"></script>
+</body>
+</html>
