@@ -29,5 +29,11 @@ html, body {
 }
 
 h1 {
+  color: rgb(245, 245, 245);
   text-align: center;
+}
+
+#result {
+  color: rgb(255, 248, 248);
+  font-weight: bold;
 }
