@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#text-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: purple;
+  border-radius: 4px;
+  margin: auto;
+}
+
+#check-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: green;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
