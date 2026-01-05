@@ -1,6 +1,13 @@
 html, body {
   height: 100%;
   margin: 0;
+  background: linear-gradient(135deg, #6a0dad, #00a86b);
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 #text-input {
